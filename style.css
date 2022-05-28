@@ -9,3 +9,12 @@ body{
     background-image: url("purple\ Small.jpeg");
     background-color: rgb(170, 255, 255);
 }
+
+.box, .ruleList{
+    width: 540px;
+    background: white;
+    border-radius: 5px;
+
+}
+
+
