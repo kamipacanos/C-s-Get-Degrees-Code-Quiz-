@@ -80,7 +80,7 @@ function questionClick() {
   // flash right/wrong feedback
   feedbackEl.setAttribute("class", "feedback");
   setTimeout(function() {
-    feedbackEl.setAttribute("class", "feedback is-hidden");
+    feedbackEl.setAttribute("class", "feedback");
   }, 1000);
 
   // next question
@@ -107,7 +107,7 @@ function quizEnd() {
   finalScoreEl.textContent = time;
 
   // hide questions section
-  questionsEl.setAttribute("class", "hide");
+  questionsEl.setAttribute("class", "is-hidden");
 }
 
 function clockTick() {
