@@ -24,6 +24,10 @@ GIVEN I am taking a code quiz
 (5) WHEN the game is over
     THEN I can save my initials and score
 
+https://kamipacanos.github.io/C-s-Get-Degrees-Code-Quiz-/
 
-https://kamipacanos.github.io/Module_4_Challenge/
+
+
+
+
 
