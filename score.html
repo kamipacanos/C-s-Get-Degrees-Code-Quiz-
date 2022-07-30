@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>C's Get Degrees</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      </head>
+
+   
+<Style> /* simple background styling */
+
+    .hero{
+      background: black url(desk.png) center / cover;
+     }   
+
+    /* The Images are optimized for different devices */
+    @media (max-width: 1024px) { .hero-body { background: url(desk.png) center / cover; } }
+    @media (max-width: 768px) {  .hero-body { background: url(desk.png) center / cover; } }
+
+</Style>
+
+<body>
+
+<!-- NavBar --> 
+
+<section class="hero is-info is-fullheight">
+    <div class="hero-head">
+        <div class="container">
+            <nav class="navbar">
+                <div id="navbarMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <span class="navbar-item"> <!--HighScore button in Navbar-->
+                            <a class="button is-white is outlined" href="score.html">
+                                <span class="icon">
+                                    <i class="scores"></i>
+                                </span>
+                                <span>View Highscores</span> 
+                            </a>
+                        </span>
+                        <span class="navbar-item"> <!--Timer in Navbar-->
+                            <a class="button is-white is outlined">
+                                <div class="timer">Time: 
+                                    <span id="time">0</span>
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </nav>  
+
+            <!-- Highscore Page -->  
+<div class="hero-body">
+    <div class="container has-text-centered" style="margin-top: 150px; background: rgba(250, 250, 250, 0.6)">
+        <div class="column is-6 is-offset-3">
+            <h1 class="title" style="color: black">Highscores</h1><break></break>
+            <ol id="highscores"></ol>
+            <a href="index.html"><button class="button mt-4">Go Back</button></a>
+            <button id="clear" class="button mt-4">Clear Highscores</button>
+        </div>
+    </div>
+</div>
+
+<script src="score.js"></script>
+</body>
+</html>
