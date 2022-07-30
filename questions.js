@@ -1,11 +1,6 @@
 // list of all questions, choices, and answers
 var questions = [
     {
-      title: "Which one is a looping structure in JavaScript?",
-      choices: ["All the below", "For", "While", "do-while loops"],
-      answer: "All the below"
-    },
-    {
       title: "What are the two basic groups of data types in JavaScript?",
       choices: [
         "Primitive and attribute",
