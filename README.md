@@ -27,6 +27,7 @@ GIVEN I am taking a code quiz
 https://kamipacanos.github.io/C-s-Get-Degrees-Code-Quiz-/
 
 
+![](codequiz.png) 
 
 
 
