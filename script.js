@@ -80,7 +80,7 @@ function questionClick() {
   // flash right/wrong feedback
   feedbackEl.setAttribute("class", "feedback");
   setTimeout(function() {
-    feedbackEl.setAttribute("class", "feedback hide");
+    feedbackEl.setAttribute("class", "feedback is-hidden");
   }, 1000);
 
   // next question
